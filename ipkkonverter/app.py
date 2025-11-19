@@ -16,7 +16,6 @@ Rumus yang digunakan adalah $V = \pi r^2 t$.
 """)
 
 
-[Image of a cylinder with radius labeled 'r' and height labeled 'h']
 
 
 # --- Input Nilai menggunakan Widget Streamlit ---
@@ -64,4 +63,5 @@ if st.button("Hitung Volume"):
         * $t$ = **{tinggi}**
         * $\pi$ $\approx$ **{math.pi:.5f}**
         * $V = \pi \times {jari_jari}^2 \times {tinggi} \approx$ **{hasil_volume:.2f}**
+
         """)
